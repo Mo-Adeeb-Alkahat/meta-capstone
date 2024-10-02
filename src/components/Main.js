@@ -1,7 +1,7 @@
 import React, { useReducer } from "react";
 import { useNavigate } from "react-router-dom";
 import BookingPage from "./BookingPage";
-import { fetchAPI } from "../api/api";
+import fetchAPI from "../api/api";
 
 // Initialize times using the fetchAPI function
 const initializeTimes = () => {
