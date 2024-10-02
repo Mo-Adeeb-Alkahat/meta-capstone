@@ -8,7 +8,6 @@ import Specials from "./components/Specials";
 import Testimonials from "./components/Testimonials";
 import ConfirmedBooking from "./components/ConfirmedBooking";
 import Main from "./components/Main";
-
 function App() {
   return (
     <Router>
@@ -17,12 +16,12 @@ function App() {
         <Route
           path="/"
           element={
-            <>
+            <div className="main" role="main">
               <Hero />
               <Specials />
               <Testimonials />
               <About />
-            </>
+            </div>
           }
         />
         <Route path="/booking" element={<Main />} />

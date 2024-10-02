@@ -1,31 +1,37 @@
 // Specials.js
 import React from "react";
 import "./Specials.css";
+import fimg from "../imgs/greek salad.jpg";
+import simg from "../imgs/Bruchetta.png";
+import timg from "../imgs/lemon dessert.jpg";
 
 const Specials = () => {
   const specials = [
     {
-      image: "special1.jpg",
-      name: "Special Dish 1",
-      price: "$15.99",
-      description: "A delicious special dish made with fresh ingredients.",
-    },
-    {
-      image: "special2.jpg",
-      name: "Special Dish 2",
+      image: fimg,
+      name: "Greek salad",
       price: "$12.99",
-      description: "A delightful dish that is sure to please your taste buds.",
+      description:
+        " The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons..",
     },
     {
-      image: "special3.jpg",
-      name: "Special Dish 3",
-      price: "$18.99",
-      description: "A gourmet dish that is both flavorful and satisfying.",
+      image: simg,
+      name: "Bruchetta",
+      price: "$5.99",
+      description:
+        " Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil",
+    },
+    {
+      image: timg,
+      name: " Lemon Dessert",
+      price: " $5.00",
+      description:
+        "This comes straight from grandma’s recipe book, every last ingredient has been sourced and is as authentic as can be imagined",
     },
   ];
 
   return (
-    <section className="specials">
+    <section className="specials" id="spec">
       <div className="specials-header">
         <h1>This week’s specials!</h1>
         <button className="order-button">Order Online</button>

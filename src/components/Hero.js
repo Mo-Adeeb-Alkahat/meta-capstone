@@ -13,9 +13,8 @@ const Hero = () => {
           <h1 style={{ color: "#F4CE14" }}>Little Lemon</h1>
           <h2 style={{ color: "white" }}>Chicago</h2>
           <p style={{ color: "white" }}>
-            Welcome to Little Lemon, where we serve the finest dishes with a
-            touch of love and tradition. Join us for an unforgettable dining
-            experience.
+            We are a family owned Mediterranean restaurant, focused on
+            traditional recipes served with a modern twist
           </p>
           <button
             style={{ backgroundColor: "#F4CE14", color: "black" }}
@@ -29,8 +28,8 @@ const Hero = () => {
           <img
             src={heroimg}
             alt="Delicious dish"
-            width="200px"
-            height="200px"
+            width="300px"
+            height="400px"
           />
         </div>
       </div>

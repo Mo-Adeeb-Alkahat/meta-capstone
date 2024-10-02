@@ -1,28 +1,31 @@
 // Header.js
 import React from "react";
 import "./Header.css";
-import Logo from "./Logo";
+import logo from "../imgs/Logo.svg";
+
 const Header = () => {
   return (
     <header className="header">
       <nav className="nav">
-        <Logo type="header" />
-        <a href="#home" className="nav-link">
+        <a href="/" className="nav-link">
+          <img src={logo} alt="Logo" />
+        </a>
+        <a href="#" className="nav-link">
           Home
         </a>
         <a href="#about" className="nav-link">
           About
         </a>
-        <a href="#menu" className="nav-link">
+        <a href="#" className="nav-link">
           Menu
         </a>
-        <a href="#reservation" className="nav-link">
+        <a href="#" className="nav-link">
           Reservation
         </a>
-        <a href="#order" className="nav-link">
+        <a href="#" className="nav-link">
           Order Online
         </a>
-        <a href="#login" className="nav-link">
+        <a href="#" className="nav-link">
           Login
         </a>
       </nav>

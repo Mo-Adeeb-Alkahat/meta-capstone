@@ -1,7 +1,7 @@
 /* Testimonials.css */
 .testimonials {
   padding: 40px 20px;
-  text-align: center;
+  text-align: left;
 }
 
 .testimonials h1 {
@@ -35,7 +35,7 @@
 
 .review-title {
   font-size: 18px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 .review-body {

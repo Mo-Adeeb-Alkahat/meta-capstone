@@ -5,10 +5,13 @@
 }
 
 .about-content {
+  padding-left: 100px;
+  padding-right: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 20px;
+  margin-bottom: 5rem;
 }
 
 .about-text {
@@ -30,24 +33,39 @@
 .about-text p {
   color: black;
   font-size: 18px;
-  line-height: 1.6;
+  line-height: 1.3;
 }
 
 .about-images {
   flex: 1;
-  position: relative;
 }
 
 .image-top {
   width: 100%;
   height: auto;
   border-radius: 10px;
-  margin-bottom: 20px;
+  z-index: 1; /* Ensure this is higher than the image-bottom */
+  position: relative; /* Add this to enable z-index and translations */
+  aspect-ratio: 0;
+  width: 280px;
+  height: 280px;
+  transform: translate(
+    200px,
+    50px
+  ); /* Adjust these values to translate right and down */
 }
 
 .image-bottom {
   width: 100%;
   height: auto;
   border-radius: 10px;
-  transform: translateX(-20px); /* Adjust the value as needed */
+  aspect-ratio: 1;
+  width: 280px;
+  height: 280px;
+  z-index: 1; /* Lower z-index to stay behind the image-top */
+  position: relative; /* Add this to enable z-index */
+  transform: translate(
+    50px,
+    -50px
+  ); /* Adjust these values to translate right and down */
 }

@@ -1,13 +1,13 @@
 // Footer.js
 import React from "react";
 import "./Footer.css";
-import Logo from "./Logo"; // Assuming you have a Logo component
+import img from "../imgs/footerLogo.png";
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer" id="footer">
       <div className="footer-column">
-        <Logo type="footer" />
+        <img src={img} className="fimg" />
       </div>
       <div className="footer-column">
         <h2>Doormat Navigation</h2>
