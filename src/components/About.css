@@ -1,0 +1,53 @@
+/* About.css */
+.about {
+  background-color: white;
+  padding: 40px 20px;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-text h1 {
+  color: #495e57;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.about-text h2 {
+  color: black;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  color: black;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.about-images {
+  flex: 1;
+  position: relative;
+}
+
+.image-top {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.image-bottom {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transform: translateX(-20px); /* Adjust the value as needed */
+}

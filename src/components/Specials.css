@@ -1,0 +1,84 @@
+/* Specials.css */
+.specials {
+  padding: 40px 20px;
+}
+
+.specials-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.specials-header h1 {
+  color: #333333;
+  font-size: 36px;
+}
+
+.order-button {
+  background-color: #f4ce14;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.specials-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.special-card {
+  background-color: #d9d9d9;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.special-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.special-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.special-name-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.special-name {
+  color: #333333;
+  font-size: 24px;
+}
+
+.special-price {
+  color: #f4ce14;
+  font-size: 20px;
+}
+
+.special-description {
+  color: #495e57;
+  margin-bottom: 10px;
+}
+
+.delivery-button {
+  background-color: transparent;
+  color: #333333;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  padding: 0;
+}

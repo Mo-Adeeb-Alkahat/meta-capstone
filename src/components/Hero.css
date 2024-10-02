@@ -1,0 +1,56 @@
+/* Hero.css */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.hero-content {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  gap: 20px;
+}
+
+.hero-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.hero-text h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.reserve-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
